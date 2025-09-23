@@ -177,3 +177,6 @@ pyrightconfig.json
 
 .env
 posts.json
+/.vscode
+/tts
+/backgrounds
