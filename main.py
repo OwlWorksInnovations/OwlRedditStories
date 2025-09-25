@@ -13,7 +13,13 @@ def tts():
         posts = json.load(f)
 
     for post in posts:
-        asyncio.run(create_tts(post["name"], post["tts_content"]))
+        name = post["name"]
+        uploaded_status = post.get("uploaded", "false")
+
+        if uploaded_status == "false":
+            asyncio.run(create_tts(post["name"], post["tts_content"]))
+        else:
+            print(f"Skipping tts {name}")
 
 def make_video():
     video_files = os.listdir("backgrounds")
@@ -24,8 +30,12 @@ def make_video():
 
     for post in posts:
         name = post["name"]
+        uploaded_status = post.get("uploaded", "false")
 
-        subtitiles(os.path.basename(video_files_choice), f"tts/{name}.mp3", name, "sounds/sound.mp3")
+        if uploaded_status == "false":
+            subtitiles(os.path.basename(video_files_choice), f"tts/{name}.mp3", name, "sounds/sound.mp3")
+        else:
+            print(f"Skipping creation {name}")
 
 def video_upload():
     with open('posts.json', 'r', encoding='utf-8') as f:
