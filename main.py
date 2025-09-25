@@ -1,9 +1,17 @@
 from reddit import scrape_reddit
 from format import format_posts
+from tts import create_tts
+import asyncio
+import json
 
-def get_posts(count: int):
-    scrape_reddit(count)
+def tts():
+    with open('posts.json', 'r', encoding='utf-8') as f:
+        posts = json.load(f)
+
+    for post in posts:
+        asyncio.run(create_tts(post["name"], post["tts_content"]))
 
 if __name__ == "__main__":
-    get_posts(1)
+    scrape_reddit(1)
     format_posts()
+    tts()
