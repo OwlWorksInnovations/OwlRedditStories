@@ -20,16 +20,20 @@ def format_posts():
                 replacement = match[:-1] + ' male'
 
             cleaned = cleaned.replace(match, replacement)
-            
-        matches2 = re.findall(r"(?<![\'\",.;:()\[\]-])\b[fm]\b", cleaned, re.IGNORECASE)
+                    
+        matches2 = re.findall(r'(^|\s)([fm])(\s|$)', cleaned, re.IGNORECASE)
         for match2 in matches2:
-            if match2[-1].lower() == 'f':
-                # :-1 keeps the orginal except the last one
-                replacement2 = match2[:-1] + ' female'
-            else:
-                replacement2 = match2[:-1] + ' male'
-
-            cleaned = cleaned.replace(match2, replacement2)
+            # match2 is a tuple: (before, letter, after)
+            before, letter, after = match2
+            
+            if letter.lower() == 'f':
+                replacement2 = before + ' female' + after
+            elif letter.lower() == 'm':
+                replacement2 = before + ' male' + after
+            
+            # Reconstruct the original match to replace
+            original_match = before + letter + after
+            cleaned = cleaned.replace(original_match, replacement2, 1)
         
         abbr_match = re.findall(r'\bAITA\b', cleaned)
         
