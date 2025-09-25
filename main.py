@@ -1,35 +1,54 @@
 from reddit import scrape_reddit
-from format import format_text_for_tts, format_reddit_post_for_tts
-from tts import edgetts
-import json
-import os
+from format import format_posts
+from tts import create_tts
+from editor import subtitiles
+from upload import upload_video
 import asyncio
+import json
+import random
+import os
 
-def scrape_and_format():
-    scrape_reddit()
-    with open("posts.json", "r", encoding="utf-8") as f:
+def tts():
+    with open('posts.json', 'r', encoding='utf-8') as f:
         posts = json.load(f)
 
     for post in posts:
-        tts_ready_text = format_text_for_tts(post["submission_post"])
-        post["tts_content"] = tts_ready_text
+        asyncio.run(create_tts(post["name"], post["tts_content"]))
+
+def make_video():
+    video_files = os.listdir("backgrounds")
+    video_files_choice = random.choice(video_files)
+    
+    with open('posts.json', 'r', encoding='utf-8') as f:
+        posts = json.load(f)
+
+    for post in posts:
+        name = post["name"]
+
+        subtitiles(os.path.basename(video_files_choice), f"tts/{name}.mp3", name, "sounds/sound.mp3")
+
+def video_upload():
+    with open('posts.json', 'r', encoding='utf-8') as f:
+        posts = json.load(f)
+
+    for post in posts:
+        name = post["name"]
+        title = post["submission_title"]
+        uploaded_status = post.get("uploaded", "false")
+
+        if uploaded_status == "false":
+            upload_video(f"output/{name}.mp4", title, title, ['AITA', 'AmItheAsshole', 'RedditStories', 'AITATiktok', 'Reddit', 'r/AmItheAsshole', 'StoryTime', 'RelationshipAdvice', 'FamilyDrama', 'DatingAdvice', 'Friendship', 'Workplace', 'Tifu', 'UnpopularOpinion', 'YouTubeShorts', 'Shorts', 'ShortStory', 'Viral', 'Trending'])
+            post["uploaded"] = "true"
+        else:
+            print(f"Skipping {name} upload")
 
     with open("posts.json", "w", encoding="utf-8") as f:
-        json.dump(posts, f, indent=4, ensure_ascii=False)
-
-async def tts():
-    processed = 0
-    os.makedirs("tts", exist_ok=True)
-
-    with open("posts.json", "r", encoding="utf-8") as f:
-        posts = json.load(f)
-
-    for post in posts:
-        processed += 1
-        await edgetts(post["name"], post["tts_content"])
-        print(f"[?] Saved {processed} tts audios.")
+        json.dump(posts, f, ensure_ascii=False, indent=3)
 
 if __name__ == "__main__":
-    scrape_and_format()
-    asyncio.run(tts())
+    scrape_reddit(10)
+    format_posts()
+    tts()
+    make_video()
+    video_upload()
     

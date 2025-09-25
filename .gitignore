@@ -180,3 +180,7 @@ posts.json
 /.vscode
 /tts
 /backgrounds
+/output
+/sounds
+token.json
+client_secret.json

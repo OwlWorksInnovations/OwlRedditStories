@@ -3,7 +3,7 @@ import json
 import os
 from dotenv import load_dotenv
 
-def scrape_reddit():
+def scrape_reddit(target_count):
     load_dotenv()
 
     reddit = praw.Reddit(
@@ -25,9 +25,8 @@ def scrape_reddit():
     existing_ids = {post.get("id") for post in old_posts}
 
     new_posts = []
-    target_count = 5
     processed = 0
-    for submission in reddit.subreddit("AmItheAsshole").hot(limit=50):
+    for submission in reddit.subreddit("AmItheAsshole").hot(limit=100):
         processed += 1
         if submission.id in existing_ids:
             print(f"[?] Skipping duplicate {submission.title}.")
