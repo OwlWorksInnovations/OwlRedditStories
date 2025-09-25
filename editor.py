@@ -1,23 +1,41 @@
-from moviepy import VideoFileClip, TextClip, CompositeVideoClip
-import whisper
+from moviepy import VideoFileClip, AudioFileClip, TextClip, CompositeVideoClip
+import whisper_timestamped as whisper
+import os
 
-def subtitiles(video, audio, title):
-    model = whisper.load_model("base")
-    result = whisper.transcribe(audio)
-    clip = (
-        VideoFileClip(f"backgrounds/{video}.mp4")
+def subtitiles(video, audio_file, title):
+    model = whisper.load_model("tiny", device="cpu")
+    result = whisper.transcribe(model, audio_file)
+    text = result["text"]
+
+    end_time = result["segments"][-1]["end"]
+    
+    clip = VideoFileClip(f"backgrounds/{video}.mp4", audio=False).subclipped(0, end_time)
+    clip = clip.resized(width=1080)
+    clip = clip.cropped(x_center=clip.w/2, y_center=clip.h/2, width=1080, height=1920)
+
+    audio = AudioFileClip(audio_file)
+
+    word_clips = []
+    for seg in result["segments"]:
+        for word in seg["words"]:
+            txt = TextClip(
+                text=word["text"],
+                font_size=100,
+                color="yellow",
+                stroke_color="black",
+                stroke_width=4,
+                size=clip.size
+            ).with_start(word["start"]).with_end(word["end"]).with_position("center")
+            word_clips.append(txt)
+
+    final = CompositeVideoClip([clip, *word_clips], use_bgclip=True).with_audio(audio)
+    final.write_videofile(
+        f"output/{title}.mp4",
+        codec='h264_nvenc',
+        threads=os.cpu_count(),
+        fps=24,
+        preset='fast'
     )
+    
 
-    # Generate a text clip. You can customize the font, color, etc.
-    txt_clip = TextClip(
-        font="Arial.ttf",
-        text=result,
-        font_size=70,
-        color='white'
-    ).with_duration(10).with_position('center')
-
-    # Overlay the text clip on the first video clip
-    final_video = CompositeVideoClip([clip, txt_clip])
-    final_video.write_videofile(f"output/{title}.mp4")
-
-subtitiles("backgrounds/Minecraft (1).mp4", "tts/askingAITAquestion.mp3", "askingAITAquestion")
+subtitiles("Minecraft (1)", "tts/wewereonabreak29.mp3", "wewereonabreak29")
