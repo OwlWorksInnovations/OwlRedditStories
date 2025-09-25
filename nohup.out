@@ -1,0 +1,202 @@
+/home/homelab/OwlRedditStories/venv/lib/python3.12/site-packages/whisper/transcribe.py:130: UserWarning: Performing inference on CPU when CUDA is available
+  warnings.warn("Performing inference on CPU when CUDA is available")
+[?] Skipping AITAMod and AutoModerator.
+[?] Skipping AITAMod and AutoModerator.
+[?] Skipping duplicate AITA for suggesting my in-laws stay at an Airbnb instead of us leaving our home with our kitten?.
+[?] Skipping duplicate AITA for "humiliating" my friend for hitting on my cousin?.
+[+] Added new post: AITA for taking my sister's side?
+[+] Added new post: AITA for telling my friend to end their 10 day trip and come get their dog after I found out their dog had fleas?
+[?] Skipping duplicate AITA for wanting to be a princess too?.
+[+] Added new post: AITA for comparing my sister’s elopement to my other sister’s religious wedding?
+[+] Added new post: WIBTA if I hid my GF's contact lenses again?
+[+] Added new post: AITA for making my wedding child-free?
+[+] Added new post: AITA for asking my fiancé to sign an agreement
+[+] Added new post: AITA for missing my girlfriend's minor surgery for an important business trip?
+[+] Added new post: AITA for telling the bride that her armpits smell on her wedding day since I was the maid-of-honor ?
+[+] Added new post: AITA for not cooking something vegetarian?
+[+] Added new post: AITA for refusing to swap my piano lesson time with another girl?
+[?] Saved 10 new posts. Total now: 13. Proccesed: 15
+[+] Starting TTS for: Batman_19999
+[+] TTS done for: Batman_19999
+[+] Starting TTS for: Long-day1789
+[+] TTS done for: Long-day1789
+[+] Starting TTS for: Huge_Oil_3845
+[+] TTS done for: Huge_Oil_3845
+[+] Starting TTS for: Smooth-Oil3035
+[+] TTS done for: Smooth-Oil3035
+[+] Starting TTS for: PainPlus
+[+] TTS done for: PainPlus
+[+] Starting TTS for: No_Rhubarb_4267
+[+] TTS done for: No_Rhubarb_4267
+[+] Starting TTS for: KnownLie7425
+[+] TTS done for: KnownLie7425
+[+] Starting TTS for: EchoNyxxx
+[+] TTS done for: EchoNyxxx
+[+] Starting TTS for: No-Anywhere4799
+[+] TTS done for: No-Anywhere4799
+[+] Starting TTS for: Fancy-Entertainer-79
+[+] TTS done for: Fancy-Entertainer-79
+[+] Starting TTS for: askingAITAquestion
+[+] TTS done for: askingAITAquestion
+[+] Starting TTS for: Winter_Apricot9149
+[+] TTS done for: Winter_Apricot9149
+[+] Starting TTS for: Significant-Cry-658
+[+] TTS done for: Significant-Cry-658
+Detected language: English
+  0%|          | 0/4248 [00:00<?, ?frames/s] 65%|██████▍   | 2740/4248 [00:03<00:01, 825.15frames/s]100%|██████████| 4248/4248 [00:05<00:00, 719.36frames/s]100%|██████████| 4248/4248 [00:05<00:00, 737.64frames/s]
+ffmpeg version 6.1.1-3ubuntu5 Copyright (c) 2000-2023 the FFmpeg developers
+  built with gcc 13 (Ubuntu 13.2.0-23ubuntu3)
+  configuration: --prefix=/usr --extra-version=3ubuntu5 --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --arch=amd64 --enable-gpl --disable-stripping --disable-omx --enable-gnutls --enable-libaom --enable-libass --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libcodec2 --enable-libdav1d --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libglslang --enable-libgme --enable-libgsm --enable-libharfbuzz --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-librubberband --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libtheora --enable-libtwolame --enable-libvidstab --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzimg --enable-openal --enable-opencl --enable-opengl --disable-sndio --enable-libvpl --disable-libmfx --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-ladspa --enable-libbluray --enable-libjack --enable-libpulse --enable-librabbitmq --enable-librist --enable-libsrt --enable-libssh --enable-libsvtav1 --enable-libx264 --enable-libzmq --enable-libzvbi --enable-lv2 --enable-sdl2 --enable-libplacebo --enable-librav1e --enable-pocketsphinx --enable-librsvg --enable-libjxl --enable-shared
+  libavutil      58. 29.100 / 58. 29.100
+  libavcodec     60. 31.102 / 60. 31.102
+  libavformat    60. 16.100 / 60. 16.100
+  libavdevice    60.  3.100 / 60.  3.100
+  libavfilter     9. 12.100 /  9. 12.100
+  libswscale      7.  5.100 /  7.  5.100
+  libswresample   4. 12.100 /  4. 12.100
+  libpostproc    57.  3.100 / 57.  3.100
+[Parsed_subtitles_0 @ 0x592cea89d740] libass API version: 0x1701000
+[Parsed_subtitles_0 @ 0x592cea89d740] libass source: tarball: 0.17.1
+[Parsed_subtitles_0 @ 0x592cea89d740] Shaper: FriBidi 1.0.13 (SIMPLE) HarfBuzz-ng 8.3.0 (COMPLEX)
+[Parsed_subtitles_0 @ 0x592cea89d740] Using font provider fontconfig
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'backgrounds/Minecraft (62).mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf62.3.100
+  Duration: 00:05:04.14, start: 0.000000, bitrate: 5253 kb/s
+  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1080x1920 [SAR 1:1 DAR 9:16], 5163 kb/s, 60 fps, 60 tbr, 16k tbn (default)
+    Metadata:
+      handler_name    : ISO Media file produced by Google Inc.
+      vendor_id       : [0][0][0][0]
+  Stream #0:1[0x2](eng): Audio: opus (Opus / 0x7375704F), 48000 Hz, stereo, fltp, 76 kb/s (default)
+    Metadata:
+      handler_name    : SoundHandler
+      vendor_id       : [0][0][0][0]
+[mp3 @ 0x592cea8cb940] Estimating duration from bitrate, this may be inaccurate
+Input #1, mp3, from 'tts/Batman_19999.mp3':
+  Duration: 00:00:42.48, start: 0.000000, bitrate: 48 kb/s
+  Stream #1:0: Audio: mp3, 24000 Hz, mono, fltp, 48 kb/s
+Input #2, mp3, from 'sounds/sound.mp3':
+  Metadata:
+    major_brand     : dash
+    minor_version   : 0
+    compatible_brands: iso6mp41
+    encoder         : Lavf58.29.100
+  Duration: 00:03:43.58, start: 0.025057, bitrate: 192 kb/s
+  Stream #2:0: Audio: mp3, 44100 Hz, stereo, fltp, 192 kb/s
+    Metadata:
+      encoder         : Lavc58.54
+Stream mapping:
+  Stream #0:0 (h264) -> subtitles:default
+  Stream #1:0 (mp3float) -> amix
+  Stream #2:0 (mp3float) -> volume:default
+  trim:default -> Stream #0:0 (h264_nvenc)
+  amix:default -> Stream #0:1 (aac)
+Press [q] to stop, [?] for help
+[Parsed_subtitles_0 @ 0x592cead75f80] libass API version: 0x1701000
+[Parsed_subtitles_0 @ 0x592cead75f80] libass source: tarball: 0.17.1
+[Parsed_subtitles_0 @ 0x592cead75f80] Shaper: FriBidi 1.0.13 (SIMPLE) HarfBuzz-ng 8.3.0 (COMPLEX)
+[Parsed_subtitles_0 @ 0x592cead75f80] Using font provider fontconfig
+[aac @ 0x592cead72e00] Too many bits 8192.000000 > 6144 per frame requested, clamping to max
+Output #0, mp4, to 'output/Batman_19999.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf60.16.100
+  Stream #0:0: Video: h264 (Main) (avc1 / 0x31637661), cuda(tv, bt709, progressive), 1080x1920 [SAR 1:1 DAR 9:16], q=2-31, 60 fps, 15360 tbn
+    Metadata:
+      encoder         : Lavc60.31.102 h264_nvenc
+    Side data:
+      cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+  Stream #0:1: Audio: aac (LC) (mp4a / 0x6134706D), 24000 Hz, mono, fltp, 144 kb/s
+    Metadata:
+      encoder         : Lavc60.31.102 aac
+frame=    0 fps=0.0 q=0.0 size=       0kB time=N/A bitrate=N/A speed=N/A    [Parsed_subtitles_0 @ 0x592cead75f80] fontselect: (/home/homelab/OwlRedditStories/clarencealt-heavy.otf, 700, 0) -> /usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf, 0, DejaVuSans-Bold
+frame=   57 fps=0.0 q=19.0 size=     256kB time=00:00:01.06 bitrate=1966.4kbits/s speed=1.67x    frame=  151 fps=132 q=18.0 size=    2048kB time=00:00:02.60 bitrate=6446.3kbits/s speed=2.28x    frame=  237 fps=144 q=20.0 size=    4608kB time=00:00:04.01 bitrate=9412.2kbits/s speed=2.44x    frame=  326 fps=152 q=22.0 size=    8704kB time=00:00:05.50 bitrate=12954.9kbits/s speed=2.56x    frame=  412 fps=155 q=18.0 size=   12032kB time=00:00:06.95 bitrate=14172.7kbits/s speed=2.62x    frame=  502 fps=159 q=18.0 size=   15616kB time=00:00:08.44 bitrate=15142.8kbits/s speed=2.67x    frame=  579 fps=158 q=22.0 size=   18944kB time=00:00:09.72 bitrate=15952.9kbits/s speed=2.65x    frame=  671 fps=161 q=22.0 size=   23040kB time=00:00:11.26 bitrate=16756.4kbits/s speed= 2.7x    frame=  754 fps=162 q=23.0 size=   27136kB time=00:00:12.62 bitrate=17601.8kbits/s speed=2.71x    frame=  837 fps=162 q=24.0 size=   31232kB time=00:00:14.03 bitrate=18226.6kbits/s speed=2.71x    frame=  923 fps=163 q=21.0 size=   34560kB time=00:00:15.48 bitrate=18279.7kbits/s speed=2.73x    frame= 1017 fps=165 q=21.0 size=   37888kB time=00:00:17.02 bitrate=18231.8kbits/s speed=2.76x    frame= 1111 fps=166 q=21.0 size=   41216kB time=00:00:18.60 bitrate=18150.2kbits/s speed=2.78x    frame= 1196 fps=166 q=20.0 size=   44544kB time=00:00:20.01 bitrate=18235.5kbits/s speed=2.78x    frame= 1273 fps=166 q=21.0 size=   47616kB time=00:00:21.29 bitrate=18321.2kbits/s speed=2.77x    frame= 1352 fps=165 q=21.0 size=   50432kB time=00:00:22.61 bitrate=18269.7kbits/s speed=2.76x    frame= 1438 fps=165 q=23.0 size=   54272kB time=00:00:24.06 bitrate=18475.6kbits/s speed=2.77x    frame= 1518 fps=165 q=18.0 size=   57600kB time=00:00:25.38 bitrate=18586.9kbits/s speed=2.76x    frame= 1611 fps=166 q=21.0 size=   61184kB time=00:00:26.96 bitrate=18587.6kbits/s speed=2.78x    frame= 1697 fps=166 q=22.0 size=   64768kB time=00:00:28.37 bitrate=18699.9kbits/s speed=2.78x    frame= 1780 fps=166 q=18.0 size=   68352kB time=00:00:29.73 bitrate=18828.7kbits/s speed=2.78x    frame= 1859 fps=166 q=21.0 size=   71424kB time=00:00:31.06 bitrate=18837.1kbits/s speed=2.77x    frame= 1936 fps=165 q=18.0 size=   74240kB time=00:00:32.34 bitrate=18804.9kbits/s speed=2.76x    frame= 2019 fps=165 q=21.0 size=   77568kB time=00:00:33.74 bitrate=18828.1kbits/s speed=2.76x    frame= 2099 fps=165 q=22.0 size=   81408kB time=00:00:35.07 bitrate=19015.0kbits/s speed=2.76x    frame= 2180 fps=165 q=22.0 size=   84992kB time=00:00:36.43 bitrate=19108.3kbits/s speed=2.76x    frame= 2270 fps=165 q=21.0 size=   88832kB time=00:00:37.93 bitrate=19185.3kbits/s speed=2.76x    frame= 2360 fps=166 q=21.0 size=   92160kB time=00:00:39.42 bitrate=19150.1kbits/s speed=2.77x    frame= 2444 fps=166 q=19.0 size=   95488kB time=00:00:40.83 bitrate=19157.5kbits/s speed=2.77x    frame= 2535 fps=166 q=21.0 size=   99072kB time=00:00:42.32 bitrate=19175.2kbits/s speed=2.78x    [out#0/mp4 @ 0x592cea917700] video:99331kB audio:532kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.053297%
+frame= 2549 fps=164 q=22.0 Lsize=   99916kB time=00:00:42.45 bitrate=19280.2kbits/s speed=2.73x    
+[aac @ 0x592cead72e00] Qavg: 65144.441
+/home/homelab/OwlRedditStories/venv/lib/python3.12/site-packages/whisper/transcribe.py:130: UserWarning: Performing inference on CPU when CUDA is available
+  warnings.warn("Performing inference on CPU when CUDA is available")
+Detected language: English
+  0%|          | 0/16708 [00:00<?, ?frames/s] 15%|█▌        | 2536/16708 [00:03<00:17, 827.22frames/s] 30%|███       | 5080/16708 [00:06<00:14, 798.38frames/s] 47%|████▋     | 7800/16708 [00:09<00:10, 821.24frames/s] 63%|██████▎   | 10480/16708 [00:12<00:07, 803.22frames/s] 80%|███████▉  | 13320/16708 [00:16<00:04, 795.42frames/s] 96%|█████████▌| 16016/16708 [00:20<00:00, 761.92frames/s]100%|██████████| 16708/16708 [00:21<00:00, 722.61frames/s]100%|██████████| 16708/16708 [00:21<00:00, 766.55frames/s]
+ffmpeg version 6.1.1-3ubuntu5 Copyright (c) 2000-2023 the FFmpeg developers
+  built with gcc 13 (Ubuntu 13.2.0-23ubuntu3)
+  configuration: --prefix=/usr --extra-version=3ubuntu5 --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --arch=amd64 --enable-gpl --disable-stripping --disable-omx --enable-gnutls --enable-libaom --enable-libass --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libcodec2 --enable-libdav1d --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libglslang --enable-libgme --enable-libgsm --enable-libharfbuzz --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-librubberband --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libtheora --enable-libtwolame --enable-libvidstab --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzimg --enable-openal --enable-opencl --enable-opengl --disable-sndio --enable-libvpl --disable-libmfx --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-ladspa --enable-libbluray --enable-libjack --enable-libpulse --enable-librabbitmq --enable-librist --enable-libsrt --enable-libssh --enable-libsvtav1 --enable-libx264 --enable-libzmq --enable-libzvbi --enable-lv2 --enable-sdl2 --enable-libplacebo --enable-librav1e --enable-pocketsphinx --enable-librsvg --enable-libjxl --enable-shared
+  libavutil      58. 29.100 / 58. 29.100
+  libavcodec     60. 31.102 / 60. 31.102
+  libavformat    60. 16.100 / 60. 16.100
+  libavdevice    60.  3.100 / 60.  3.100
+  libavfilter     9. 12.100 /  9. 12.100
+  libswscale      7.  5.100 /  7.  5.100
+  libswresample   4. 12.100 /  4. 12.100
+  libpostproc    57.  3.100 / 57.  3.100
+[Parsed_subtitles_0 @ 0x62358939e780] libass API version: 0x1701000
+[Parsed_subtitles_0 @ 0x62358939e780] libass source: tarball: 0.17.1
+[Parsed_subtitles_0 @ 0x62358939e780] Shaper: FriBidi 1.0.13 (SIMPLE) HarfBuzz-ng 8.3.0 (COMPLEX)
+[Parsed_subtitles_0 @ 0x62358939e780] Using font provider fontconfig
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'backgrounds/Minecraft (62).mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf62.3.100
+  Duration: 00:05:04.14, start: 0.000000, bitrate: 5253 kb/s
+  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1080x1920 [SAR 1:1 DAR 9:16], 5163 kb/s, 60 fps, 60 tbr, 16k tbn (default)
+    Metadata:
+      handler_name    : ISO Media file produced by Google Inc.
+      vendor_id       : [0][0][0][0]
+  Stream #0:1[0x2](eng): Audio: opus (Opus / 0x7375704F), 48000 Hz, stereo, fltp, 76 kb/s (default)
+    Metadata:
+      handler_name    : SoundHandler
+      vendor_id       : [0][0][0][0]
+[mp3 @ 0x6235898cec40] Estimating duration from bitrate, this may be inaccurate
+Input #1, mp3, from 'tts/Long-day1789.mp3':
+  Duration: 00:02:47.09, start: 0.000000, bitrate: 48 kb/s
+  Stream #1:0: Audio: mp3, 24000 Hz, mono, fltp, 48 kb/s
+Input #2, mp3, from 'sounds/sound.mp3':
+  Metadata:
+    major_brand     : dash
+    minor_version   : 0
+    compatible_brands: iso6mp41
+    encoder         : Lavf58.29.100
+  Duration: 00:03:43.58, start: 0.025057, bitrate: 192 kb/s
+  Stream #2:0: Audio: mp3, 44100 Hz, stereo, fltp, 192 kb/s
+    Metadata:
+      encoder         : Lavc58.54
+Stream mapping:
+  Stream #0:0 (h264) -> subtitles:default
+  Stream #1:0 (mp3float) -> amix
+  Stream #2:0 (mp3float) -> volume:default
+  trim:default -> Stream #0:0 (h264_nvenc)
+  amix:default -> Stream #0:1 (aac)
+Press [q] to stop, [?] for help
+[Parsed_subtitles_0 @ 0x6235893e0b80] libass API version: 0x1701000
+[Parsed_subtitles_0 @ 0x6235893e0b80] libass source: tarball: 0.17.1
+[Parsed_subtitles_0 @ 0x6235893e0b80] Shaper: FriBidi 1.0.13 (SIMPLE) HarfBuzz-ng 8.3.0 (COMPLEX)
+[Parsed_subtitles_0 @ 0x6235893e0b80] Using font provider fontconfig
+[aac @ 0x6235893df1c0] Too many bits 8192.000000 > 6144 per frame requested, clamping to max
+Output #0, mp4, to 'output/Long-day1789.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf60.16.100
+  Stream #0:0: Video: h264 (Main) (avc1 / 0x31637661), cuda(tv, bt709, progressive), 1080x1920 [SAR 1:1 DAR 9:16], q=2-31, 60 fps, 15360 tbn
+    Metadata:
+      encoder         : Lavc60.31.102 h264_nvenc
+    Side data:
+      cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+  Stream #0:1: Audio: aac (LC) (mp4a / 0x6134706D), 24000 Hz, mono, fltp, 144 kb/s
+    Metadata:
+      encoder         : Lavc60.31.102 aac
+frame=    0 fps=0.0 q=0.0 size=       0kB time=N/A bitrate=N/A speed=N/A    [Parsed_subtitles_0 @ 0x6235893e0b80] fontselect: (/home/homelab/OwlRedditStories/clarencealt-heavy.otf, 700, 0) -> /usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf, 0, DejaVuSans-Bold
+frame=   82 fps=0.0 q=18.0 size=     768kB time=00:00:01.45 bitrate=4337.2kbits/s speed=2.16x    frame=  171 fps=146 q=19.0 size=    2560kB time=00:00:02.94 bitrate=7123.6kbits/s speed=2.51x    frame=  266 fps=159 q=22.0 size=    6144kB time=00:00:04.52 bitrate=11128.8kbits/s speed= 2.7x    frame=  352 fps=162 q=18.0 size=    9472kB time=00:00:05.93 bitrate=13083.7kbits/s speed=2.72x    frame=  441 fps=164 q=21.0 size=   13056kB time=00:00:07.42 bitrate=14406.7kbits/s speed=2.77x    frame=  526 fps=165 q=18.0 size=   16640kB time=00:00:08.83 bitrate=15434.2kbits/s speed=2.77x    frame=  608 fps=165 q=22.0 size=   20224kB time=00:00:10.24 bitrate=16179.2kbits/s speed=2.78x    frame=  695 fps=166 q=22.0 size=   24064kB time=00:00:11.69 bitrate=16862.4kbits/s speed=2.79x    frame=  766 fps=163 q=25.0 size=   27648kB time=00:00:12.84 bitrate=17636.0kbits/s speed=2.74x    frame=  848 fps=163 q=23.0 size=   31744kB time=00:00:14.20 bitrate=18302.9kbits/s speed=2.74x    frame=  935 fps=164 q=20.0 size=   34816kB time=00:00:15.65 bitrate=18214.4kbits/s speed=2.75x    frame= 1024 fps=165 q=22.0 size=   38400kB time=00:00:17.15 bitrate=18340.3kbits/s speed=2.77x    frame= 1102 fps=164 q=18.0 size=   40960kB time=00:00:18.47 bitrate=18162.4kbits/s speed=2.76x    frame= 1184 fps=164 q=21.0 size=   44032kB time=00:00:19.84 bitrate=18181.0kbits/s speed=2.75x    frame= 1271 fps=165 q=18.0 size=   47360kB time=00:00:21.29 bitrate=18222.7kbits/s speed=2.76x    frame= 1354 fps=165 q=21.0 size=   50432kB time=00:00:22.65 bitrate=18235.3kbits/s speed=2.76x    frame= 1435 fps=165 q=23.0 size=   54016kB time=00:00:23.97 bitrate=18453.9kbits/s speed=2.75x    frame= 1521 fps=165 q=17.0 size=   57600kB time=00:00:25.47 bitrate=18524.6kbits/s speed=2.76x    frame= 1612 fps=166 q=21.0 size=   61184kB time=00:00:26.96 bitrate=18587.6kbits/s speed=2.78x    frame= 1696 fps=166 q=22.0 size=   64768kB time=00:00:28.37 bitrate=18699.9kbits/s speed=2.78x    frame= 1784 fps=166 q=21.0 size=   68352kB time=00:00:29.82 bitrate=18774.8kbits/s speed=2.78x    frame= 1862 fps=166 q=21.0 size=   71424kB time=00:00:31.10 bitrate=18811.3kbits/s speed=2.77x    frame= 1960 fps=167 q=18.0 size=   75008kB time=00:00:32.76 bitrate=18752.0kbits/s speed= 2.8x    frame= 2047 fps=168 q=21.0 size=   78592kB time=00:00:34.17 bitrate=18838.5kbits/s speed= 2.8x    frame= 2129 fps=167 q=24.0 size=   82688kB time=00:00:35.58 bitrate=19036.1kbits/s speed= 2.8x    frame= 2210 fps=167 q=22.0 size=   86016kB time=00:00:36.94 bitrate=19070.5kbits/s speed=2.79x    frame= 2297 fps=167 q=22.0 size=   89600kB time=00:00:38.35 bitrate=19135.9kbits/s speed=2.79x    frame= 2385 fps=168 q=21.0 size=   92928kB time=00:00:39.85 bitrate=19103.0kbits/s speed= 2.8x    frame= 2471 fps=168 q=21.0 size=   96256kB time=00:00:41.25 bitrate=19111.9kbits/s speed= 2.8x    frame= 2564 fps=168 q=22.0 size=  100352kB time=00:00:42.79 bitrate=19210.0kbits/s speed=2.81x    frame= 2659 fps=169 q=23.0 size=  104704kB time=00:00:44.41 bitrate=19311.4kbits/s speed=2.82x    frame= 2749 fps=169 q=25.0 size=  109312kB time=00:00:45.95 bitrate=19487.4kbits/s speed=2.83x    frame= 2830 fps=169 q=22.0 size=  112896kB time=00:00:47.23 bitrate=19580.9kbits/s speed=2.82x    frame= 2913 fps=169 q=20.0 size=  115712kB time=00:00:48.64 bitrate=19488.3kbits/s speed=2.82x    frame= 2998 fps=169 q=21.0 size=  118784kB time=00:00:50.04 bitrate=19442.9kbits/s speed=2.82x    frame= 3089 fps=169 q=21.0 size=  122624kB time=00:00:51.58 bitrate=19473.8kbits/s speed=2.83x    frame= 3180 fps=170 q=23.0 size=  126464kB time=00:00:53.07 bitrate=19518.6kbits/s speed=2.83x    frame= 3266 fps=170 q=21.0 size=  130048kB time=00:00:54.52 bitrate=19537.7kbits/s speed=2.83x    frame= 3354 fps=170 q=22.0 size=  133632kB time=00:00:55.97 bitrate=19555.9kbits/s speed=2.83x    frame= 3443 fps=170 q=19.0 size=  137728kB time=00:00:57.51 bitrate=19617.1kbits/s speed=2.84x    frame= 3530 fps=170 q=19.0 size=  141568kB time=00:00:58.92 bitrate=19682.2kbits/s speed=2.84x    frame= 3616 fps=170 q=22.0 size=  145408kB time=00:01:00.37 bitrate=19730.3kbits/s speed=2.84x    frame= 3701 fps=170 q=21.0 size=  148736kB time=00:01:01.78 bitrate=19721.9kbits/s speed=2.84x    frame= 3779 fps=170 q=22.0 size=  151808kB time=00:01:03.10 bitrate=19707.3kbits/s speed=2.83x    frame= 3857 fps=169 q=21.0 size=  154624kB time=00:01:04.38 bitrate=19673.8kbits/s speed=2.83x    frame= 3946 fps=169 q=23.0 size=  158976kB time=00:01:05.83 bitrate=19781.9kbits/s speed=2.83x    frame= 4032 fps=170 q=24.0 size=  163584kB time=00:01:07.32 bitrate=19903.8kbits/s speed=2.83x    frame= 4115 fps=169 q=23.0 size=  167168kB time=00:01:08.69 bitrate=19935.6kbits/s speed=2.83x    frame= 4205 fps=170 q=24.0 size=  171776kB time=00:01:10.18 bitrate=20049.2kbits/s speed=2.83x    frame= 4291 fps=170 q=20.0 size=  176128kB time=00:01:11.59 bitrate=20152.9kbits/s speed=2.83x    frame= 4385 fps=170 q=23.0 size=  180480kB time=00:01:13.21 bitrate=20193.6kbits/s speed=2.84x    frame= 4470 fps=170 q=23.0 size=  184064kB time=00:01:14.58 bitrate=20217.6kbits/s speed=2.84x    frame= 4559 fps=170 q=22.0 size=  187648kB time=00:01:16.07 bitrate=20206.6kbits/s speed=2.84x    frame= 4645 fps=170 q=20.0 size=  191488kB time=00:01:17.52 bitrate=20234.3kbits/s speed=2.84x    frame= 4737 fps=170 q=23.0 size=  195584kB time=00:01:19.01 bitrate=20276.5kbits/s speed=2.84x    frame= 4829 fps=171 q=19.0 size=  198400kB time=00:01:20.55 bitrate=20176.3kbits/s speed=2.85x    frame= 4919 fps=171 q=19.0 size=  199168kB time=00:01:22.09 bitrate=19875.4kbits/s speed=2.85x    frame= 5014 fps=171 q=19.0 size=  200960kB time=00:01:23.66 bitrate=19675.8kbits/s speed=2.86x    frame= 5103 fps=171 q=19.0 size=  203008kB time=00:01:25.16 bitrate=19527.8kbits/s speed=2.86x    frame= 5186 fps=171 q=16.0 size=  205056kB time=00:01:26.52 bitrate=19413.6kbits/s speed=2.85x    frame= 5281 fps=171 q=19.0 size=  206848kB time=00:01:28.10 bitrate=19232.4kbits/s speed=2.86x    frame= 5367 fps=171 q=19.0 size=  208896kB time=00:01:29.55 bitrate=19108.2kbits/s speed=2.86x    frame= 5465 fps=172 q=22.0 size=  212736kB time=00:01:31.17 bitrate=19113.4kbits/s speed=2.87x    frame= 5544 fps=172 q=20.0 size=  215808kB time=00:01:32.50 bitrate=19112.2kbits/s speed=2.86x    frame= 5632 fps=172 q=19.0 size=  217600kB time=00:01:33.95 bitrate=18973.3kbits/s speed=2.86x    frame= 5718 fps=172 q=20.0 size=  219648kB time=00:01:35.40 bitrate=18860.7kbits/s speed=2.86x    frame= 5809 fps=172 q=20.0 size=  222464kB time=00:01:36.89 bitrate=18808.1kbits/s speed=2.86x    frame= 5899 fps=172 q=22.0 size=  226304kB time=00:01:38.38 bitrate=18842.3kbits/s speed=2.87x    frame= 5990 fps=172 q=23.0 size=  230400kB time=00:01:39.92 bitrate=18888.5kbits/s speed=2.87x    frame= 6077 fps=172 q=21.0 size=  233216kB time=00:01:41.37 bitrate=18845.7kbits/s speed=2.87x    frame= 6162 fps=172 q=19.0 size=  236544kB time=00:01:42.78 bitrate=18852.8kbits/s speed=2.87x    frame= 6240 fps=172 q=23.0 size=  240384kB time=00:01:44.10 bitrate=18915.5kbits/s speed=2.86x    frame= 6333 fps=172 q=23.0 size=  244480kB time=00:01:45.64 bitrate=18958.1kbits/s speed=2.87x    frame= 6425 fps=172 q=23.0 size=  248576kB time=00:01:47.17 bitrate=18999.4kbits/s speed=2.87x    frame= 6507 fps=172 q=22.0 size=  251904kB time=00:01:48.54 bitrate=19011.6kbits/s speed=2.87x    frame= 6592 fps=172 q=22.0 size=  255744kB time=00:01:49.95 bitrate=19054.3kbits/s speed=2.87x    frame= 6678 fps=172 q=18.0 size=  259328kB time=00:01:51.36 bitrate=19077.0kbits/s speed=2.87x    frame= 6763 fps=172 q=24.0 size=  263424kB time=00:01:52.81 bitrate=19129.1kbits/s speed=2.87x    frame= 6857 fps=172 q=20.0 size=  266496kB time=00:01:54.38 bitrate=19085.1kbits/s speed=2.87x    frame= 6945 fps=172 q=21.0 size=  269568kB time=00:01:55.84 bitrate=19063.4kbits/s speed=2.87x    frame= 7033 fps=172 q=22.0 size=  273408kB time=00:01:57.29 bitrate=19095.8kbits/s speed=2.87x    frame= 7112 fps=172 q=23.0 size=  276736kB time=00:01:58.61 bitrate=19112.7kbits/s speed=2.87x    frame= 7196 fps=172 q=21.0 size=  279808kB time=00:02:00.02 bitrate=19098.2kbits/s speed=2.87x    frame= 7283 fps=172 q=21.0 size=  282880kB time=00:02:01.47 bitrate=19077.3kbits/s speed=2.87x    frame= 7377 fps=172 q=21.0 size=  286208kB time=00:02:03.05 bitrate=19054.1kbits/s speed=2.87x    frame= 7458 fps=172 q=20.0 size=  289024kB time=00:02:04.41 bitrate=19030.4kbits/s speed=2.87x    frame= 7546 fps=172 q=17.0 size=  292096kB time=00:02:05.86 bitrate=19011.0kbits/s speed=2.87x    frame= 7643 fps=172 q=20.0 size=  294912kB time=00:02:07.48 bitrate=18950.2kbits/s speed=2.87x    frame= 7720 fps=172 q=19.0 size=  296704kB time=00:02:08.76 bitrate=18875.8kbits/s speed=2.87x    frame= 7803 fps=172 q=16.0 size=  298240kB time=00:02:10.13 bitrate=18774.5kbits/s speed=2.87x    frame= 7886 fps=172 q=20.0 size=  300288kB time=00:02:11.49 bitrate=18707.1kbits/s speed=2.87x    frame= 7972 fps=172 q=16.0 size=  302336kB time=00:02:12.99 bitrate=18623.2kbits/s speed=2.87x    frame= 8055 fps=172 q=20.0 size=  304384kB time=00:02:14.35 bitrate=18558.8kbits/s speed=2.87x    frame= 8147 fps=172 q=20.0 size=  306944kB time=00:02:15.85 bitrate=18509.2kbits/s speed=2.87x    frame= 8232 fps=172 q=19.0 size=  309248kB time=00:02:17.30 bitrate=18451.1kbits/s speed=2.87x    frame= 8322 fps=172 q=19.0 size=  311808kB time=00:02:18.79 bitrate=18403.7kbits/s speed=2.87x    frame= 8408 fps=172 q=19.0 size=  314112kB time=00:02:20.24 bitrate=18347.9kbits/s speed=2.87x    frame= 8500 fps=172 q=17.0 size=  316928kB time=00:02:21.78 bitrate=18311.8kbits/s speed=2.87x    frame= 8574 fps=172 q=17.0 size=  319744kB time=00:02:22.97 bitrate=18320.2kbits/s speed=2.87x    frame= 8658 fps=172 q=17.0 size=  322304kB time=00:02:24.38 bitrate=18286.8kbits/s speed=2.86x    frame= 8747 fps=172 q=21.0 size=  325632kB time=00:02:25.87 bitrate=18286.4kbits/s speed=2.87x    frame= 8840 fps=172 q=20.0 size=  328704kB time=00:02:27.41 bitrate=18266.6kbits/s speed=2.87x    frame= 8930 fps=172 q=20.0 size=  331008kB time=00:02:28.90 bitrate=18210.2kbits/s speed=2.87x    frame= 8998 fps=172 q=21.0 size=  333312kB time=00:02:30.05 bitrate=18196.2kbits/s speed=2.86x    frame= 9087 fps=172 q=20.0 size=  336384kB time=00:02:31.55 bitrate=18182.9kbits/s speed=2.86x    frame= 9182 fps=172 q=19.0 size=  340224kB time=00:02:33.13 bitrate=18200.9kbits/s speed=2.87x    frame= 9276 fps=172 q=22.0 size=  344576kB time=00:02:34.70 bitrate=18245.6kbits/s speed=2.87x    frame= 9369 fps=172 q=23.0 size=  348928kB time=00:02:36.24 bitrate=18294.4kbits/s speed=2.87x    frame= 9462 fps=172 q=22.0 size=  352768kB time=00:02:37.78 bitrate=18315.7kbits/s speed=2.87x    frame= 9549 fps=172 q=24.0 size=  357376kB time=00:02:39.23 bitrate=18385.9kbits/s speed=2.87x    frame= 9634 fps=172 q=20.0 size=  361216kB time=00:02:40.64 bitrate=18420.6kbits/s speed=2.87x    frame= 9731 fps=172 q=21.0 size=  365056kB time=00:02:42.26 bitrate=18430.4kbits/s speed=2.88x    frame= 9821 fps=172 q=23.0 size=  369408kB time=00:02:43.79 bitrate=18475.2kbits/s speed=2.88x    frame= 9916 fps=173 q=18.0 size=  373248kB time=00:02:45.37 bitrate=18489.1kbits/s speed=2.88x    frame=10007 fps=173 q=23.0 size=  377600kB time=00:02:46.91 bitrate=18532.5kbits/s speed=2.88x    [out#0/mp4 @ 0x623589449500] video:376481kB audio:2083kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.054173%
+frame=10026 fps=170 q=18.0 Lsize=  378769kB time=00:02:47.08 bitrate=18570.9kbits/s speed=2.83x    
+[aac @ 0x6235893df1c0] Qavg: 65379.188
+/home/homelab/OwlRedditStories/venv/lib/python3.12/site-packages/whisper/transcribe.py:130: UserWarning: Performing inference on CPU when CUDA is available
+  warnings.warn("Performing inference on CPU when CUDA is available")
+Detected language: English
+  0%|          | 0/7824 [00:00<?, ?frames/s]
