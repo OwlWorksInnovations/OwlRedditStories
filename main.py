@@ -67,6 +67,20 @@ def make_video():
     with open("posts.json", "w", encoding="utf-8") as f:
         json.dump(posts, f, ensure_ascii=False, indent=3)
 
+def clean_media(post):
+    name = post["name"]
+
+    for part_file_path in post["parts"]:
+        if os.path.exists(part_file_path):
+            os.remove(part_file_path)
+
+    tts_path = f"tts/{name}.mp3"
+
+    if os.path.exists(tts_path):
+        os.remove(tts_path)
+    
+    parts = []
+
 def video_upload():
     with open('posts.json', 'r', encoding='utf-8') as f:
         posts = json.load(f)
@@ -126,6 +140,8 @@ def video_upload():
                 
         else:
             print(f"Skipping {name} upload (Already uploaded)")
+            if len(uploaded_parts) == len(parts) and len(parts) > 0 and len(post["parts"]) > 0:
+                clean_media(post)
             
     if not should_stop_upload:
         with open("posts.json", "w", encoding="utf-8") as f:
