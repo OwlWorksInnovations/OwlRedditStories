@@ -104,7 +104,7 @@ def subtitiles(video, audio_file, title, sound_file):
             '-i', final_video_path,
             '-c', 'copy',
             '-map', '0',
-            '-segment_time', '00:00:59',
+            '-segment_time', '00:00:30',
             '-f', 'segment',
             f"segments/{title}-part-%03d.mp4"
         ]
