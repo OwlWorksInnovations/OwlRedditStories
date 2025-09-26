@@ -7,6 +7,7 @@ import asyncio
 import json
 import random
 import os
+import glob
 
 def tts():
     with open('posts.json', 'r', encoding='utf-8') as f:
@@ -32,10 +33,19 @@ def make_video():
         name = post["name"]
         uploaded_status = post.get("uploaded", "false")
 
+        directory = "segments"
+        pattern = os.path.join(directory, f"{name}-*.mp4")
+        matching_files = glob.glob(pattern)
+
+        post["parts"] = matching_files
+
         if uploaded_status == "false":
             subtitiles(os.path.basename(video_files_choice), f"tts/{name}.mp3", name, "sounds/sound.mp3")
         else:
             print(f"Skipping creation {name}")
+
+    with open("posts.json", "w", encoding="utf-8") as f:
+        json.dump(posts, f, ensure_ascii=False, indent=3)
 
 def video_upload():
     with open('posts.json', 'r', encoding='utf-8') as f:
@@ -45,12 +55,18 @@ def video_upload():
         name = post["name"]
         title = post["submission_title"]
         uploaded_status = post.get("uploaded", "false")
+        parts = post["parts"]
 
         if uploaded_status == "false":
-            upload_video(f"segments/{name}.mp4", title, title, ['AITA', 'AmItheAsshole', 'RedditStories', 'AITATiktok', 'Reddit', 'r/AmItheAsshole', 'StoryTime', 'RelationshipAdvice', 'FamilyDrama', 'DatingAdvice', 'Friendship', 'Workplace', 'Tifu', 'UnpopularOpinion', 'YouTubeShorts', 'Shorts', 'ShortStory', 'Viral', 'Trending'])
+            print(f"Starting upload for post: {name} (Total parts: {len(parts)})")
+            for part_file_path in parts:
+                print(f"Uploading part: {part_file_path}")
+
+                upload_video(part_file_path, title, title, ['AITA', 'AmItheAsshole', 'RedditStories', 'AITATiktok', 'Reddit', 'r/AmItheAsshole', 'StoryTime', 'RelationshipAdvice', 'FamilyDrama', 'DatingAdvice', 'Friendship', 'Workplace', 'Tifu', 'UnpopularOpinion', 'YouTubeShorts', 'Shorts', 'ShortStory', 'Viral', 'Trending'])
+
             post["uploaded"] = "true"
         else:
-            print(f"Skipping {name} upload")
+            print(f"Skipping {name} upload (Already uploaded)")
 
     with open("posts.json", "w", encoding="utf-8") as f:
         json.dump(posts, f, ensure_ascii=False, indent=3)
