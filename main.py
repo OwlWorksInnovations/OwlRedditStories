@@ -47,7 +47,7 @@ def video_upload():
         uploaded_status = post.get("uploaded", "false")
 
         if uploaded_status == "false":
-            upload_video(f"output/{name}.mp4", title, title, ['AITA', 'AmItheAsshole', 'RedditStories', 'AITATiktok', 'Reddit', 'r/AmItheAsshole', 'StoryTime', 'RelationshipAdvice', 'FamilyDrama', 'DatingAdvice', 'Friendship', 'Workplace', 'Tifu', 'UnpopularOpinion', 'YouTubeShorts', 'Shorts', 'ShortStory', 'Viral', 'Trending'])
+            upload_video(f"segments/{name}.mp4", title, title, ['AITA', 'AmItheAsshole', 'RedditStories', 'AITATiktok', 'Reddit', 'r/AmItheAsshole', 'StoryTime', 'RelationshipAdvice', 'FamilyDrama', 'DatingAdvice', 'Friendship', 'Workplace', 'Tifu', 'UnpopularOpinion', 'YouTubeShorts', 'Shorts', 'ShortStory', 'Viral', 'Trending'])
             post["uploaded"] = "true"
         else:
             print(f"Skipping {name} upload")
@@ -56,7 +56,7 @@ def video_upload():
         json.dump(posts, f, ensure_ascii=False, indent=3)
 
 if __name__ == "__main__":
-    scrape_reddit(10)
+    scrape_reddit(1)
     format_posts()
     tts()
     make_video()
