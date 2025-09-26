@@ -1,7 +1,6 @@
 import json
 import re
 
-
 def format_posts():
     with open('posts.json', 'r', encoding='utf-8') as f:
         posts = json.load(f)
