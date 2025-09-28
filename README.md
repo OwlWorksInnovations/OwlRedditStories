@@ -15,7 +15,7 @@ OwlRedditStories is an automated pipeline for generating, editing, and uploading
 
 ## Requirements
 
-- Python 3.8+
+- Python 3.11 (Other versions may work)
 - FFmpeg installed and available in your PATH  
   (or set the binary location with:  
   `export FFMPEG_BINARY=/usr/bin/ffmpeg`)
