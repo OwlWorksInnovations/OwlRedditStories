@@ -1,5 +1,4 @@
 edge_tts==7.2.3
-google_api_python_client==2.182.0
 google_api_python_client==2.183.0
 google_auth_oauthlib==1.2.2
 praw==7.8.1
