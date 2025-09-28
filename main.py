@@ -106,7 +106,7 @@ def video_upload():
             post_upload_successful = True
             
             for idx, part_file_path in enumerate(parts, start=1):
-                part_title = f"{name}-part-{idx:03d}"
+                part_title = f"{name} part {idx:03d}"
                 
                 if part_file_path in uploaded_parts:
                     print(f"Skipping part {idx}: {part_file_path} (Already uploaded)")
@@ -115,7 +115,7 @@ def video_upload():
                 print(f"Uploading part {idx}: {part_file_path}")
 
                 try:
-                    upload_video(part_file_path, part_title,title,['AITA', 'AmItheAsshole', 'RedditStories', 'AITATiktok', 'Reddit', 'r/AmItheAsshole', 'StoryTime', 'RelationshipAdvice', 'FamilyDrama', 'DatingAdvice', 'Friendship', 'Workplace', 'Tifu', 'UnpopularOpinion', 'YouTubeShorts', 'Shorts', 'ShortStory', 'Viral', 'Trending'])
+                    upload_video(part_file_path, part_title,title,['AITA', 'AmItheAsshole', 'RedditStories', 'Reddit'])
                     
                     uploaded_parts.append(part_file_path)
                     post["uploaded_parts"] = uploaded_parts
