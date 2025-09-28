@@ -79,8 +79,9 @@ You can also run the pipeline step-by-step by calling functions in `main.py`.
 - Output videos and segments are stored in `output/` and `segments/`.
 - Temporary TTS files are stored in `tts/`.
 - Posts and their metadata are tracked in `posts.json`.
-- Make sure your YouTube API quota allows for the number of uploads you intend to perform.
 
 ---
 
-**Disclaimer:** This project is for educational purposes. Respect Reddit's and YouTube's terms of service.
+# Track Progress
+
+Script runs every hour at [OwlRedditStories](https://www.youtube.com/@OwlRedditStories)
