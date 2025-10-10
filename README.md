@@ -84,4 +84,4 @@ You can also run the pipeline step-by-step by calling functions in `main.py`.
 
 # Track Progress
 
-Script runs every 3 hours at [OwlRedditStories](https://www.youtube.com/@OwlRedditStories) | **UNDER HOLD BECAUSE GOOGLE WONT ALLOW ME TO SIGN IN BECAUSE I LOG MY OLD PHONE NUMBER AND REMOVED IT WITHOUT ADDING ANOTHER**
+Script runs every 3 hours at [OwlRedditStories](https://www.youtube.com/@OwlRedditStories) | **UNDER HOLD BECAUSE GOOGLE WONT ALLOW ME TO SIGN IN BECAUSE I LOG MY LOST OLD PHONE NUMBER AND REMOVED IT WITHOUT ADDING ANOTHER**
