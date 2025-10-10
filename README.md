@@ -84,4 +84,4 @@ You can also run the pipeline step-by-step by calling functions in `main.py`.
 
 # Track Progress
 
-Script runs every hour at [OwlRedditStories](https://www.youtube.com/@OwlRedditStories)
+Script runs every 3 hours at [OwlRedditStories](https://www.youtube.com/@OwlRedditStories)
